@@ -36,3 +36,16 @@ Re-run of Week01, 7/7/2023 content + New Content identified below.
 
 Today we explored the use of OpenAI's CodeInterpreter and Monica (leveraging GPT3.5 via OpenAI API endpoints) to analyse the Iris dataset.  The code for the same was transcribed into CMU_PGSS2023_CSLab/Week01/CodeInterpreter_ChatGPT_IRIS_Explore.ipynb. 
 
+This Python code additionally performs exploratory data analysis and hypothesis testing on the Iris dataset. The code is divided into several sections, each of which performs a specific task.
+
+The first section loads the Iris dataset from Google Drive using pandas. The dataset contains four continuous independent variables (petal length, petal width, sepal length, and sepal width) and one categorical dependent variable (species).
+
+The second section performs exploratory data analysis (EDA) on the dataset. It displays basic statistics and visualizes the distributions and relationships between different features for each species using a pairplot.
+
+The third section explores a hypothesis using statistical testing. The hypothesis is that the average petal length differs significantly between the species. The code checks normality, homogeneity of variances, and performs ANOVA and Mann-Whitney U tests to test the hypothesis. The results show that the petal length is significantly different between the species.
+
+The fourth section builds a decision tree classifier for the species using petal length as a feature. It uses the decision tree to visualize the decision rules embodied by the classifier and calculates the accuracy of the classifier. The code also performs 5-fold cross-validation and generates cross-validated predictions for each data point. Finally, it prints a classification report showing precision, recall, and F1-score per class.
+
+The fifth section explores how the classification report looks like for other continuous dependent variables predicting the species response.
+
+The final section explores how the classification report looks like if all four independent variables are used to predict the species response.
