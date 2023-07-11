@@ -33,3 +33,6 @@ Finally, it generates a ggplot diagram to visualize a boxplot of Sepal.Width by 
 # Week01 Notes (7/11/2023)
 
 Re-run of Week01, 7/7/2023 content + New Content identified below.
+
+Today we explored the use of OpenAI's CodeInterpreter and Monica (leveraging GPT3.5 via OpenAI API endpoints) to analyse the Iris dataset.  The code for the same was transcribed into CMU_PGSS2023_CSLab/Week01/CodeInterpreter_ChatGPT_IRIS_Explore.ipynb. 
+
