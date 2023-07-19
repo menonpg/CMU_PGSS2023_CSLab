@@ -49,3 +49,15 @@ The fourth section builds a decision tree classifier for the species using petal
 The fifth section explores how the classification report looks like for other continuous dependent variables predicting the species response.
 
 The final section explores how the classification report looks like if all four independent variables are used to predict the species response.
+
+
+
+# Week01 Notes (7/14/2023)
+
+R equivalents of Python code from earlier in the week.
+
+- What is classification
+- What is regression
+- Fundaments on statistical testing choices for parametric and non-parametric testing
+- Linear v/s non-linear classification paradigms and models 
+
