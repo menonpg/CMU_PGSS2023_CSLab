@@ -17,6 +17,7 @@ Overall, this script provides a basic framework for text analysis and classifica
 
 
 ## 7/21/2023:
+CMU_PGSS2023_CSLab/Week02/TextAnalysis_01_NNinference.ipynb
 
 We used Python and various libraries such as pandas, BeautifulSoup, wordcloud, seaborn, scikit-learn, tensorflow, and sentence-transformers. We demonstrated how to preprocess text data, visualize it, and build classifiers to predict sentiment. The lecture also covered how to save the trained models and datasets for future use. To summarize this lecture, we covered the following topics:
 
