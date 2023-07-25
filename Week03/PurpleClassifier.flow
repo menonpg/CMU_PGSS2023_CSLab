@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "cells": [
+    {
+      "type": "cs",
+      "input": "assist"
+    },
+    {
+      "type": "cs",
+      "input": "getFrames"
+    },
+    {
+      "type": "cs",
+      "input": "getFrameSummary \"PurpleClassifier.hex\""
+    },
+    {
+      "type": "cs",
+      "input": "assist splitFrame, \"PurpleClassifier.hex\""
+    },
+    {
+      "type": "cs",
+      "input": "splitFrame \"PurpleClassifier.hex\", [0.75], [\"frame_0.750\",\"frame_0.250\"], 902903"
+    },
+    {
+      "type": "cs",
+      "input": "runAutoML"
+    },
+    {
+      "type": "cs",
+      "input": "runAutoML {\"input_spec\":{\"training_frame\":\"frame_0.750\",\"response_column\":\"Color\",\"validation_frame\":\"frame_0.250\",\"blending_frame\":\"PurpleClassifier.hex\",\"leaderboard_frame\":\"PurpleClassifier.hex\",\"ignored_columns\":[],\"sort_metric\":\"AUTO\"},\"build_control\":{\"project_name\":\"PurpleClassifier01\",\"nfolds\":-1,\"balance_classes\":false,\"stopping_criteria\":{\"seed\":-1,\"max_models\":0,\"max_runtime_secs\":360,\"max_runtime_secs_per_model\":0,\"stopping_rounds\":3,\"stopping_metric\":\"AUTO\",\"stopping_tolerance\":-1},\"keep_cross_validation_predictions\":true,\"keep_cross_validation_models\":true,\"keep_cross_validation_fold_assignment\":false,\"export_checkpoints_dir\":\"/Users/pgmenon/Documents/CMU/PGSS2023/CMU_PGSS2023_CSLab/Week03/models/\"},\"build_models\":{\"exclude_algos\":[\"DeepLearning\"],\"exploitation_ratio\":-1,\"monotone_constraints\":[]}}, 'exec'"
+    },
+    {
+      "type": "cs",
+      "input": "getLeaderboard \"PurpleClassifier01@@Color\""
+    },
+    {
+      "type": "cs",
+      "input": "getModel \"StackedEnsemble_AllModels_5_AutoML_1_20230725_155953\""
+    },
+    {
+      "type": "cs",
+      "input": "getModels"
+    },
+    {
+      "type": "cs",
+      "input": "getModel \"metalearner_gbm_StackedEnsemble_AllModels_5_AutoML_1_20230725_155953\""
+    }
+  ]
+}
