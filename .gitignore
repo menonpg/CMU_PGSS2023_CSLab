@@ -5,3 +5,9 @@ Week02/textanalysis_01.py
 Week03/models/
 .Rproj.user
 Week03/classifierforcolorpurple.py
+Week03/MaskData-20230728T185512Z-001.zip
+Week03/MaskData/with*
+Week03/MaskData/kerasMaskClassifier.zip
+Week03/MaskData/.DS_Store
+.gitignore
+.DS_Store
